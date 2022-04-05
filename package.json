@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "author": "Felix Haus",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc --skipLibCheck",
+    "start": "node dist/cdk"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigatewayv2-alpha": "^2.19.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.19.0-alpha.0",
+    "@aws-sdk/client-cloudformation": "^3.58.0",
+    "@aws-sdk/client-s3": "^3.58.0",
+    "aws-cdk-lib": "^2.19.0",
+    "constructs": "^10.0.106",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^14.0.0",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0"
+  }
+}
